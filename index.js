@@ -41,10 +41,10 @@ function calcPokemonId(){
   // console.log((x4*100).toFixed(6));
   // console.log((x5*100).toFixed(6));
 
-  document.getElementById('5IdHit').innerHTML = (x1*100).toFixed(6);
-  document.getElementById('4IdHit').innerHTML = (x2*100).toFixed(6);
-  document.getElementById('3IdHit').innerHTML = (x3*100).toFixed(6);
-  document.getElementById('2IdHit').innerHTML = (x4*100).toFixed(6);
-  document.getElementById('1IdHit').innerHTML = (x5*100).toFixed(6);
+  document.getElementById('5IdHit').innerHTML = (x1*100).toFixed(6) + "％";
+  document.getElementById('4IdHit').innerHTML = (x2*100).toFixed(6) + "％";
+  document.getElementById('3IdHit').innerHTML = (x3*100).toFixed(6) + "％";
+  document.getElementById('2IdHit').innerHTML = (x4*100).toFixed(6) + "％";
+  document.getElementById('1IdHit').innerHTML = (x5*100).toFixed(6) + "％";
 
 };
