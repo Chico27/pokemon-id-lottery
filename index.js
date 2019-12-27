@@ -12,10 +12,10 @@ function calcPokemonId(){
   const PatternX5 = 10*10*10*10*10*1;
 
   let soloX1 = PatternX1/10**6;
-  let soloX2 = PatternX2/10**6-soloX1;
-  let soloX3 = PatternX3/10**6-soloX2;
-  let soloX4 = PatternX4/10**6-soloX3;
-  let soloX5 = PatternX5/10**6-soloX4;
+  let soloX2 = PatternX2/10**6;
+  let soloX3 = PatternX3/10**6;
+  let soloX4 = PatternX4/10**6;
+  let soloX5 = PatternX5/10**6;
   // let x1 = valiationNum* 1*(1/10)*(1/10)*(1/10)*(1/10)*(1/10);
   // let x2 = valiationNum* 1*1*(1/10)*(1/10)*(1/10)*(1/10)-x1;
   // let x3 = valiationNum* 1*1*1*(1/10)*(1/10)*(1/10)-x1-x2;
