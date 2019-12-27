@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="index.js"></script>
+    <title></title>
+  </head>
+  <body>
+
+    <h3>下記に持っているポケモンのIDの数を<br>入力してください(半角数字かつ整数)</h3>
+    <form name = "form">
+    <input type="text" name="pokemonId" id="pokemonId">
+    <input type="button" value="計算する" onclick="calcPokemonId()">
+    </form>
+
+    <table class = "Table">
+      <tbody>
+        <tr>
+            <th scope="row">５桁一致(マスターボールGET)：</th>
+            <td> <div id="5IdHit"></div> </td>
+        </tr>
+        <tr>
+            <th scope="row">４桁一致(ふしぎなアメGET)：</th>
+            <td> <div id="4IdHit"></div> </td>
+        </tr>
+        <tr>
+            <th scope="row">３桁一致(ポイントマックスGET)：</th>
+            <td> <div id="3IdHit"></div> </td>
+        </tr>
+        <tr>
+            <th scope="row">２桁一致(ポイントアップGET)：</th>
+            <td> <div id="2IdHit"></div> </td>
+        </tr>
+        <tr>
+            <th scope="row">１桁一致(モーモーミルクGET)：</th>
+            <td> <div id="1IdHit"></div> </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
